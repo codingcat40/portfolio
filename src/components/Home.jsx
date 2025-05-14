@@ -8,7 +8,7 @@ const Home = () => {
     justify-center relative"
     >
       <div className="text-center z-10 px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-300 to-purple-500 gradient-text bg-clip-text text-transparent leading-right">
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-300 to-cyan-600 gradient-text bg-clip-text text-transparent leading-right">
           Hi, I am Naman Matoliya
         </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
