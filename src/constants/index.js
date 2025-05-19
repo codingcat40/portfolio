@@ -13,7 +13,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Sept 2024 - December 2024",
-    company: "Fieldproxy India Pivate Limited",
+    company: "Fieldproxy India Private Limited",
     position: "Front End Developer Intern",
     description:
       "Contributed to the design and implementation of user interface (UI) improvements for Product V3, a no-code app builder and a Field Service management tool that allows organizations to manage field teams and enables creating complex mobile applications using drag-and-drop widgets. Identified and resolved various issues and bugs in the software, ensuring smooth functionality and a high-quality user interface. Implemented several features and UI improvements in the latest V4 version of the product with AI integration enabling smooth app creation using prompt.",
