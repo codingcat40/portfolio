@@ -20,36 +20,42 @@ export const EXPERIENCES = [
   },
 ];
 
-// export const PROJECTS = [
-//   {
-//     title: "E-Commerce Website",
-//     image: project1,
-//     description:
-//       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-//     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-//   },
-//   {
-//     title: "Task Management App",
-//     image: project2,
-//     description:
-//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-//   },
-//   {
-//     title: "Blogging Platform",
-//     image: project4,
-//     description:
-//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-//   },
-// ];
+export const PROJECTS = [
+  {
+    name: "AnonyBlog - Share anonymous posts",
+    description:
+      "AnonyBlog allows people to share their personal thoughts and views on the platform  with others without the individual identity being exposed, App has the CRUD functionality",
+    skills: ["ReactJS", "MongoDB", "Express", "Tailwind CSS"],
+    url: "https://anonyblog.netlify.app/",
+  },
+  {
+    name: "SwoleNORMOUS fitness app",
+    description:
+      "A fitness application for fitness enthusiasts seeking proper workout plans. It offers personalized routines targeting individual muscles, bro splits, bodybuilder splits, and upper-lower body exercises. The app suggests appropriate plans for strength, cardio, and muscle gain goals, with detailed instructions, total reps, and rest times. App showcases proper training instructions and provides smooth and mobile responsive interface to the user.",
+    skills: ["ReactJS", "Tailwind CSS", "Vite"],
+    url: "https://swolenormous-app.netlify.app/",
+  },
+
+  {
+    name: "ExpenseWise - finance manager",
+    description:
+      "A modern personal finance management application built with React and Supabase database, offering a comprehensive platform to track expenses, manage budgets, and maintain financial health. The application features secure authentication, real-time expense tracking, category-wise budget planning, and multicurrency support, all presented through an intuitive and responsive interface. The application provides features such as automated savings calculations, visual indicators, and saving warnings. ExpenseWise helps users make informed financial decisions while maintaining the budget discipline.",
+    skills: [
+      "ReactJS",
+      "Tailwind CSS",
+      "Supabase Database",
+      "React Router DOM",
+    ],
+    url: "https://expense-wise1.netlify.app/",
+  },
+  {
+    name: "Google Gemini Clone",
+    description:
+      "Developed the mobile responsive Google Gemini clone application using the React library and Tailwind CSS framework for styling. Enables users to write the prompts and get the output for their query. Saves the previous asked prompts and shows to users when clicked upon. Provided appropriate styling and effects which makes it look visually appealing",
+    skills: ["ReactJS", "Tailwind CSS", "Google Gemini API"],
+    url: "https://github.com/codingcat40/Gemini-clone",
+  },
+];
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",

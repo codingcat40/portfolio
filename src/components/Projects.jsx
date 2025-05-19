@@ -1,3 +1,5 @@
+import { PROJECTS } from "../constants";
+
 const Projects = () => {
   return (
     <section
@@ -15,29 +17,31 @@ const Projects = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-md transition-all">
-            <h3 className="text-xl font-bold mb-2">Project Name</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, dignissimos facere officia cupiditate placeat odio
-              consequatur tenetur error culpa consequuntur esse necessitatibus
-              recusandae nemo delectus mollitia tempore, eligendi magni
-              aspernatur.
-            </p>
-            {/* skills come here */}
-          </div>
+          {PROJECTS.map((project, index) => (
+            <div
+              key={index}
+              className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-md transition-all"
+            >
+              <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
+              <p className="mb-2 text-sm">{project.description}</p>
+              {/* skills come here */}
+              <div className="flex gap-3 mb-2">
+                {project.skills.map((skill, index) => (
+                  <p
+                    key={index}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-blue-300 cursor-pointer transition"
+                  >
+                    {skill}
+                  </p>
+                ))}
+              </div>
 
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-md transition-all">
-            <h3 className="text-xl font-bold mb-2">Project Name</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, dignissimos facere officia cupiditate placeat odio
-              consequatur tenetur error culpa consequuntur esse necessitatibus
-              recusandae nemo delectus mollitia tempore, eligendi magni
-              aspernatur.
-            </p>
-            {/* skills come here */}
-          </div>
+              {/* Link/View project */}
+              <a className="mt-6 text-sm p-2 border-0 rounded-xl bg-blue-500/10 text-blue-600" href={project.url}>
+                    View Project
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
