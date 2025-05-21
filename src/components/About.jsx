@@ -58,28 +58,28 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-8 ">Education</h3>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>
-                <strong>B.E in Computer Science</strong> - KLE Technological
+            <div className="list-disc list-inside space-y-4">
+              <p className="text-gray-400">
+                <strong className="text-white">B.E in Computer Science</strong> - KLE Technological
                 University, Hubli, Karnataka [2019 - 2023]
-              </li>
-              <li className="text-sm">
-                <strong>Relevant Coursework:</strong> Data Structures and Algorithms, Machine
+              </p>
+              <p className="text-sm text-gray-400">
+                <strong className="text-white">Relevant Coursework:</strong> Data Structures and Algorithms, Machine
                 Learning, Web Development, Problem Solving, Cloud Computing,
                 Computer Networks, Database management system
-              </li>
-            </ul>
+              </p>
+            </div>
           </div>
 
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
             <h3 className="text-xl font-bold mb-8">Work Experience</h3>
-            <div className="space-y-4 text-gray-300">
+            <div className="space-y-4 text-gray-400">
               {EXPERIENCES.map((exp, index) => (
                 <div key={index}>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold text-white">
                     {exp.position} at {exp.company} ({exp.year})
                   </h4>
-                  <p className="text-xs">{exp.description}</p>
+                  <p className="text-sm">{exp.description}</p>
                 </div>
               ))}
             </div>

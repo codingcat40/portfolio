@@ -23,7 +23,7 @@ const Projects = () => {
               className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-md transition-all"
             >
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
-              <p className="mb-2 text-sm">{project.description}</p>
+              <p className="mb-2 text-sm text-gray-400">{project.description}</p>
               {/* skills come here */}
               <div className="flex gap-3 mb-2">
                 {project.skills.map((skill, index) => (
@@ -37,9 +37,11 @@ const Projects = () => {
               </div>
 
               {/* Link/View project */}
-              <a className="mt-6 text-sm p-2 border-0 rounded-xl bg-blue-500/10 text-blue-600" href={project.url}>
-                    View Project
+              <div className="flex justify-between items-center">
+              <a className="my-4 hover:text-blue-200 transition-colors text-blue-400" href={project.url}>
+                    View Project 
               </a>
+              </div>
             </div>
           ))}
         </div>
