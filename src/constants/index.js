@@ -1,7 +1,3 @@
-// import project1 from "../assets/projects/project-1.webp";
-// import project2 from "../assets/projects/project-2.webp";
-// import project3 from "../assets/projects/project-3.webp";
-// import project4 from "../assets/projects/project-4.webp";
 
 export const EXPERIENCES = [
   {
@@ -47,6 +43,19 @@ export const PROJECTS = [
       "React Router DOM",
     ],
     url: "https://expense-wise1.netlify.app/",
+  },
+  {
+    name: "Movie recommender mobile App",
+    description:
+      "Developed a movie recommender mobile app in React native, with mobile responsiveness and visually stunning styles. Enabled search bar for movie search and routing features",
+    skills: [
+      "TypeScript",
+      "React Native",
+      "Tailwind CSS",
+      "movie Rest api",
+      "router",
+    ],
+    url: "https://github.com/codingcat40/movie-recommender-mobile",
   },
   {
     name: "Google Gemini Clone",
