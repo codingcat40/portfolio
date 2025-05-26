@@ -64,13 +64,20 @@ export const PROJECTS = [
     skills: ["ReactJS", "Tailwind CSS", "Google Gemini API"],
     url: "https://github.com/codingcat40/Gemini-clone",
   },
+   {
+    name: "College Website",
+    description:
+      "Created a responsive college website using React library, with Home, Navbar, Contact Form which sends the submitted form data to NoSQL database (MongoDB). ",
+    skills: ["ReactJS", "Tailwind CSS", "MongoDB", "React-Router-DOM"],
+    url: "https://github.com/codingcat40/collegewebsite",
+  },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
+// export const CONTACT = {
+//   address: "767 Fifth Avenue, New York, NY 10153 ",
+//   phoneNo: "+12 4555 666 00 ",
+//   email: "me@example.com",
+// };
 
 export const FRONTEND_SKILLS = [
   "React",
