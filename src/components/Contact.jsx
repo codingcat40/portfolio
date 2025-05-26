@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <RevealOnScroll>
+      <div>Contact</div>
+    </RevealOnScroll>
+  );
+};
 
-export default Contact
+export default Contact;

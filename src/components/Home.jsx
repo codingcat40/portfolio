@@ -1,4 +1,5 @@
 import React from "react";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       className="min-h-screen flex items-center
     justify-center relative"
     >
+      <RevealOnScroll>
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-300 to-cyan-600 gradient-text bg-clip-text text-transparent leading-right">
           Hi, I am Naman Matoliya
@@ -26,6 +28,8 @@ const Home = () => {
 
         </div>
       </div>
+
+      </RevealOnScroll>
     </section>
   );
 };
