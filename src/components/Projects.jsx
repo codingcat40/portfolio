@@ -11,7 +11,7 @@ const Projects = () => {
       <RevealOnScroll>
       <div className="max-w-5xl mx-auto px-4">
         <h2
-          className="text-3xl font-bold mb-8 
+          className="text-3xl text-center font-bold mb-8 
         bg-gradient-to-r from-blue-600 to-cyan-700 text-transparent
         bg-clip-text"
         >
