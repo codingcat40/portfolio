@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
-
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" :  ""
-  }, [menuOpen])
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+  }, [menuOpen]);
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8) backdrop-blur-lg border-b border-white/10 shadow-lg">
@@ -14,7 +13,10 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             Naman<span className="text-blue-500">.tech</span>
           </a>
 
-          <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() =>  setMenuOpen(!menuOpen)}>
+          <div
+            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
             &#9776;
           </div>
 
@@ -44,6 +46,13 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             "
             >
               Projects
+            </a>
+
+            <a
+              href="#contact"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Contact
             </a>
           </div>
         </div>
