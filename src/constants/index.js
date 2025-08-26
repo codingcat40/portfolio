@@ -1,27 +1,36 @@
-
 export const EXPERIENCES = [
   {
     year: "Jan 2023 - July 2023",
     company: "Deevia Software India Private Limited",
     position: "Machine Learning Intern",
-    description:
-      "Trained the Object Detection Models YOLO v8, YOLO v5, SSDNet on the large and custom Image Datasets analyzing the accuracy and performance of models, Used several Data annotation tools such as LabelImg for image data preparation and cleaning. Achieved an accuracy of 71 percent on the steel defect detection project associated with Tata India.",
+    description:`Worked on object detection using YOLOv8, YOLOv5, and SSDNet with large/custom datasets. Achieved 71% accuracy on a steel defect detection project for Tata India through deep learning, image processing, and data annotation.`  
   },
   {
     year: "Sept 2024 - December 2024",
-    company: "Fieldproxy India Private Limited",
-    position: "Front End Developer Intern",
-    description:
-      "Contributed to the design and implementation of user interface (UI) improvements for Product V3, a no-code app builder and a Field Service management tool that allows organizations to manage field teams and enables creating complex mobile applications using drag-and-drop widgets. Identified and resolved various issues and bugs in the software, ensuring smooth functionality and a high-quality user interface. Implemented several features and UI improvements in the latest V4 version of the product with AI integration enabling smooth app creation using prompt.",
+    company: "Fieldproxy India Private Limited (YC w22)",
+    position: "Frontend Developer Intern",
+    description: `
+    Enhanced UI and features for product versions V3 & V4 in Next.js/React, improving responsiveness and usability. Contributed to AI-driven dynamic app creation via JSON, while fixing bugs and collaborating with product & sales teams on user feedback.
+    `,
   },
 ];
 
 export const PROJECTS = [
   {
+    name: "Forever - Full Stack Ecommerce Clothing store",
+    description: `Built a responsive full-stack clothing store using React, Node.js, Express, and MongoDB with complete user and admin flows. Implemented features like product sorting/filtering, keyword search, size selection, cart, checkout, and order
+                  management. Integrated secure user/admin authentication, Cloudinary for image uploads, and Stripe for online payments.
+                  Developed an admin dashboard with product/order CRUD, real-time order status updates, and toast notifications.`,
+    skills: [
+      "ReactJS, Tailwind CSS, NodeJS, ExpressJS, JWT Auth, React toastify, Stripe API",
+    ],
+    url: "https://e-commerce-clothingstore-eh52.vercel.app/",
+  },
+  {
     name: "AnonyBlog - Share anonymous posts",
     description:
       "AnonyBlog allows people to share their personal thoughts and views on the platform  with others without the individual identity being exposed, App has the CRUD functionality",
-    skills: ["ReactJS", "MongoDB", "Express", "Tailwind CSS"],
+    skills: ["ReactJS", "MongoDB", "ExpressJS", "Tailwind CSS"],
     url: "https://anonyblog.netlify.app/",
   },
   {
@@ -64,7 +73,7 @@ export const PROJECTS = [
     skills: ["ReactJS", "Tailwind CSS", "Google Gemini API"],
     url: "https://github.com/codingcat40/Gemini-clone",
   },
-   {
+  {
     name: "College Website",
     description:
       "Created a responsive college website using React library, with Home, Navbar, Contact Form which sends the submitted form data to NoSQL database (MongoDB). ",
@@ -80,10 +89,20 @@ export const PROJECTS = [
 // };
 
 export const FRONTEND_SKILLS = [
-  "React",
+  "HTML",
+  "CSS",
+  "ReactJS",
+  "NextJS",
   "JavaScript",
   "TypeScript",
   "TailwindCSS",
   "Git",
+  "Responsive Design",
 ];
-export const BACKEND_SKILLS = ["Node.JS", "Express", "MongoDB", "Python"];
+export const BACKEND_SKILLS = [
+  "NodeJS",
+  "ExpressJS",
+  "MongoDB",
+  "JWT Authentication",
+  "REST APIs",
+];

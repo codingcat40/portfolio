@@ -11,9 +11,9 @@ const About = () => {
     justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-3xl mx-auto px-4 leading-relaxed">
           <h2
-            className="text-3xl font-bold mb-8 
+            className="text-3xl font-extrabold mb-8 
         bg-gradient-to-r from-blue-600 to-cyan-700 text-transparent
         bg-clip-text"
           >
@@ -60,17 +60,17 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-8 ">Education</h3>
-              <div className="list-disc list-inside space-y-4">
+              <div className="list-disc list-inside space-y-4 text-lg">
                 <p className="text-gray-400">
                   <strong className="text-white">
                     B.E in Computer Science
                   </strong>{" "}
                   - KLE Technological University, Hubli, Karnataka [2019 - 2023]
                 </p>
-                <p className="text-sm text-gray-400">
+                <p className=" text-gray-400">
                   <strong className="text-white">Relevant Coursework:</strong>{" "}
                   Data Structures and Algorithms, Machine Learning, Web
-                  Development, Problem Solving, Cloud Computing, Computer
+                  Development, Problem Solving, Computer
                   Networks, Database management system
                 </p>
               </div>
@@ -78,13 +78,13 @@ const About = () => {
 
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-8">Work Experience</h3>
-              <div className="space-y-4 text-gray-400">
+              <div className="space-y-4 text-gray-400 text-lg">
                 {EXPERIENCES.map((exp, index) => (
                   <div key={index}>
                     <h4 className="font-semibold text-white">
                       {exp.position} at {exp.company} ({exp.year})
                     </h4>
-                    <p className="text-sm">{exp.description}</p>
+                    <p className="">{exp.description}</p>
                   </div>
                 ))}
               </div>
