@@ -32,7 +32,7 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center"
     >
       <RevealOnScroll>
-        <div className="px-4 w-180">
+        <div className="px-4 lg:w-180 md:w-140 sm:w-100">
           <h2
             className="text-3xl font-bold mb-8 text-center
         bg-gradient-to-r from-blue-600 to-cyan-700 text-transparent
