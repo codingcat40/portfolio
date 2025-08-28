@@ -6,9 +6,9 @@ export const EXPERIENCES = [
     description:`Worked on object detection using YOLOv8, YOLOv5, and SSDNet with large/custom datasets. Achieved 71% accuracy on a steel defect detection project for Tata India through deep learning, image processing, and data annotation.`  
   },
   {
-    year: "Sept 2024 - July 2025",
+    year: "Sept 2024 - Jan 2025",
     company: "Fieldproxy India Private Limited (YC w22)",
-    position: "Frontend Developer",
+    position: "Frontend Developer Intern",
     description: `
     Enhanced UI and features for product versions V3 & V4 in Next.js/React, improving responsiveness and usability. Contributed to AI-driven dynamic app creation via JSON, while fixing bugs and collaborating with product & sales teams on user feedback.
     `,
